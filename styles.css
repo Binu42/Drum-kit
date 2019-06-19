@@ -11,7 +11,7 @@ h1 {
 
 }
 
-footer {
+footer, h4 {
     color: #DBEDF3;
     font-family: sans-serif;
 }
@@ -81,7 +81,7 @@ footer {
 }
 
 .drum:hover,
-.drum:active{
+.drum:active {
     border: 10px solid #acebc1;
 }
 
@@ -120,4 +120,8 @@ footer {
         height: 120px;
         background-color: white;
     }
+}
+
+.color {
+    
 }
