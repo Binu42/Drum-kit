@@ -80,9 +80,10 @@ footer, h4 {
     background-color: white;
 }
 
-.drum:hover,
-.drum:active {
-    border: 10px solid #acebc1;
+@media(min-width: 50rem) {
+    .drum:hover {
+        border: 10px solid #acebc1;
+    }
 }
 
 @media(max-width: 350px) {
